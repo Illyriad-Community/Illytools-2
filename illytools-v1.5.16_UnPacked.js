@@ -7,11 +7,12 @@ var itm = {};
 var itr = {};
 var itmnu = 0;
 var settings = {
-    'server': 'http://www.illytools.net/ajax',
-    'static': 'http://www.illytools.net/latest',
-    'â¦iary': 'blue'
-}, 'city_limit_alliance': 'green', 'city_limit_other': 'gray'
-    };
+	'server': 'http://www.illytools.net/ajax',
+	'static': 'http://www.illytools.net/latest',
+	'tertiary': 'blue',
+	'city_limit_alliance': 'green',
+	'city_limit_other': 'gray'
+};
 var constants = {
     'human_race_id': 1,
     'elf_race_id': 2,
