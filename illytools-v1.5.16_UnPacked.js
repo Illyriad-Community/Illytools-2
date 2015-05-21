@@ -2087,7 +2087,7 @@ function handleAjax(f, g, h) {
         }, 1000);
         break;
     case 'http://elgea-notify.illyriad.co.uk/Chat/Update':
-        if (settings.log_chat_enableâ¦('/Communication/Mail') || h.url.startsWith('/Communication/AlterMail')) {
+        if (settings.log_chat_enabled && (h.url.startsWith('/Communication/Mail') || h.url.startsWith('/Communication/AlterMail'))) {
             var i = $('<span></span>').text('|');
             i.insertAfter($('input.composeSubmit'));
             $('input', $('#markReadSubmit').parent()).appendTo(i);
@@ -2872,3 +2872,4 @@ function handleAjax(f, g, h) {
         });
         report()
     });
+};
